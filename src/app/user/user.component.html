@@ -1,0 +1,30 @@
+<div class="d-flex justify-content-between mt-3">
+  <h1>User List</h1>
+  <a routerLink="/admin" class="btn btn-sm btn-info">Add User</a>
+</div>
+
+<table class="table table-bordered mt-3">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>City</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of userList; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.city }}</td>
+      <td>{{ item.email }}</td>
+      <td>
+        <button class="btn btn-sm btn-success" (click)="onEdit(i)">Edit</button>
+        <button class="btn btn-sm btn-danger" (click)="onDelete(item.id)">
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

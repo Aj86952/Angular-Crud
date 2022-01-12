@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "8984546"
+    },
+    {
+      "id": 3,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "885465"
+    },
+    {
+      "id": 4,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "karan"
+    },
+    {
+      "id": 5,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "karan"
+    },
+    {
+      "id": 6,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "karan"
+    },
+    {
+      "id": 7,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "98654654"
+    },
+    {
+      "id": 8,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "98654654"
+    },
+    {
+      "id": 9,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "8854643"
+    },
+    {
+      "id": 10,
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "phone": "774585"
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
